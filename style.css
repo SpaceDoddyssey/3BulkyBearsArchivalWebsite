@@ -29,6 +29,27 @@ body {
     color: #ae6161; /* Set text color */
 }
 
+/* Apply styles to links with the class "game-link" */
+.game-link {
+  display: inline-block; /* Make the link behave like a block-level element */
+  padding: 10px 20px; /* Add padding for spacing */
+  background-color: #007bff; /* Set background color */
+  color: #fff; /* Set text color */
+  text-decoration: none; /* Remove underline */
+  border: 2px solid #007bff; /* Add border */
+  border-radius: 5px; /* Add rounded corners */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Add transition for smoother hover effect */
+  position: relative;
+  top: 60px; 
+  
+}
+
+ /* Add hover effect */
+ .game-link:hover {
+  background-color: #0056b3; /* Change background color on hover */
+  border-color: #0056b3; /* Change border color on hover */
+}
+
 .row {
     display: flex;
   }
