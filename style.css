@@ -6,3 +6,26 @@ body {
     background-repeat: repeat;
     text-align: center;
 }
+
+.links {
+    text-align: left;
+    margin-left: 50px;
+
+}
+/* Style for each link */
+.links a {
+    padding: 10px; /* Add padding for space around each link */
+    margin-left: 100px; /* Add margin right for space between each link horizontally */
+    text-decoration: none; /* Remove underline */
+    transition: none; /* Remove transition animation */
+    color: #333; /* Set text color */
+   
+}
+
+ /* Add hover effect */
+ .links a:hover {
+    text-decoration: none; /* Remove underline */
+    background-color: transparent; /* Set background to transparent */
+    color: #ae6161; /* Set text color */
+}
+
