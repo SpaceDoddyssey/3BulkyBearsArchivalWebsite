@@ -50,10 +50,12 @@ body {
   border-color: #0056b3; /* Change border color on hover */
 }
 .container {
-  max-width: 800px;
+  max-width: 900px;
+  width: 80%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 30px;
 }
+
 
 .team-member {
   background-color: #fff;
@@ -66,16 +68,17 @@ body {
 
 .row {
     display: flex;
+    
   }
   
   .column {
     flex: 33.33%;
     padding: 5px;
   }
-  
-  /* .parent {
-    position: relative;
-    top: 0;
-    left: 0;
-  } */
+
+.text {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 5%;
+}
 
