@@ -56,6 +56,15 @@ body {
   padding: 30px;
 }
 
+.constraints {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+ 
+
 
 .team-member {
   background-color: #fff;
@@ -63,6 +72,12 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin-bottom: 20px;
+}
+
+.localization {
+  width: 390px; /* Set the width of the images */
+  height: auto; /* Automatically adjust the height to maintain aspect ratio */
+
 }
 
 
